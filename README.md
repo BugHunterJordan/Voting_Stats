@@ -1,2 +1,15 @@
-# Voting_Stats
-Python program to process voting data, calculate vote percentages, and allow searching for a candidate’s statistics.
+# Voting Stats
+A Python program that processes voting data for candidates, calculates total and average votes, determines each candidate's vote percentage, and allows users to search for a specific candidate to view their statistics.
+
+## About the Project
+This project was created as part of my Intro to Programming course.  
+It demonstrates working with Python **lists, loops, and conditional statements** to handle multiple inputs and display structured output.  
+The program includes input validation for the number of candidates and handles searches for candidates by name.
+
+## Skills Practiced
+- Python **input handling** and **validation**  
+- **Lists** to store candidate names, votes, and percentages  
+- **Loops** (for loops) to process multiple candidates  
+- **Mathematical operations** to calculate totals, averages, and percentages  
+- **Conditional statements** (if, else) to handle candidate search results  
+- Implementing **search functionality** to find a candidate by name and display their stats
