@@ -1,12 +1,10 @@
 ##Jordan Pangrazzi
-##CIT 129-1002
-##7/28/25
-##2.5 hours
+##9/24/25
 ##Process data for a vote, and display the candidates voting stats. Also allow users to search for a specific candidate by name and see their stats
 
-numCand = int(input("Enter the number of candidates (1 or more): "))  #user enters number of candidates
+numCand = int(input("How many participants are in the election? (Mimimum 1): "))  #user enters number of candidates
 while numCand < 1:   
-    numCand = int(input("Invalid entry - enter the number of candidates (1 or more): "))  #if < 1 candidate will display an error
+    numCand = int(input("Invalid entry - enter a valid number of participants (1 or more): "))  #if < 1 candidate will display an error
 nameCand = []   #set a list for candidate names
 votesCand = []  #set a list for candidate votes
 for x in range(numCand):   
@@ -32,7 +30,7 @@ for x in range(numCand):
 
 print("\nS E A R C H R E S U L T S\n")
 
-key = input("Enter the name of the candidate and I'll tell you the stats: ")  #allow users to search for a specific candidate by name
+key = input("Enter the participants name to see their vote stats: ")  #allow users to search for a specific candidate by name
 found = 0
 for x in range(numCand):
     if nameCand[x] == key:   
